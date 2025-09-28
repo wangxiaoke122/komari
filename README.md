@@ -26,7 +26,7 @@ Komari is a lightweight, self-hosted server monitoring tool designed to provide 
 
 [![](https://raw.githubusercontent.com/ClawCloud/Run-Template/refs/heads/main/Run-on-ClawCloud.svg)](https://template.run.claw.cloud/?openapp=system-fastdeploy%3FtemplateName%3Dkomari)
 
-### 1. Use the One-click Install Script
+### 1. Use the One-click Install Script（容器安装agent见中文介绍）
 Suitable for distributions using systemd (Ubuntu, Debian...).
 ```bash
 curl -fsSL https://raw.githubusercontent.com/komari-monitor/komari/main/install-komari.sh -o install-komari.sh
