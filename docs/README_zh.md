@@ -33,6 +33,11 @@ chmod +x install-komari.sh
 sudo ./install-komari.sh
 ```
 
+### 1.1 容器安装agent
+```bash
+wget https://raw.githubusercontent.com/komari-monitor/komari-agent/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh -e IP(域名):端口号 -t 秘钥
+```
+
 ### 2. Docker 部署
 1. 创建数据目录：
    ```bash
